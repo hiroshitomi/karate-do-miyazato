@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(152, 20, 20);
+    font-family: Roboto, sans-serif;
+    color: white;
+}
 
 .container{
     display: grid;
@@ -47,11 +52,18 @@
     font-weight: 700;
 }
 
+.animate {
+    transition: all 0.2 ease-in-out;
+}
+
+.animate:hover {
+    transform: scale(0.8);
+}
+
 .logoTitulo {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    color: white;
 }
 
 .logoTitulo img{
@@ -61,7 +73,7 @@
 .parallax1{
     background-image: url("../multimedia/parallax.jpg");
     height: 600px;
- 
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,7 +126,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: rgba(136, 0, 0, 0.752);
 }
 
 .articulo1{
