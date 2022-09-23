@@ -6,6 +6,7 @@ body{
     background-color: #BFBFBF;
     font-family: Roboto, sans-serif;
     color: white;
+    min-height: 100vh;
 }
 
 .navbar-brand{
@@ -13,6 +14,10 @@ body{
     color: #F5F5F5;
     font-family: Anton, sans-serif;
     font-size: 30px;
+}
+
+.section-margin{
+    margin-top: 4.5rem;
 }
 
 .navbar{
@@ -180,6 +185,23 @@ body{
     background-color: #c0150fb7;
 }
 
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #C0150F;
+    --bs-btn-border-color: #C0150F;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c0150fb7;
+    --bs-btn-hover-border-color: #c0150fb7;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #C0150F;
+    --bs-btn-active-border-color: #C0150F;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: grey;
+    --bs-btn-disabled-border-color: grey;
+}
+
 @media screen and (max-width: 768px){
     .redes{
         display: flex;
@@ -189,7 +211,11 @@ body{
     }
 }
     
-    
+@media screen and (max-width: 375px){
+    .section-margin{
+        margin-top: 7rem;
+    }
+}
     /*.container{
         display: grid;
         width: 100%;
