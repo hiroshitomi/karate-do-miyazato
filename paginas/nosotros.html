@@ -22,11 +22,11 @@
     
     <title>Nosotros</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- <div class="container"> -->
         <!-- Encabezado -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-header">
+            <nav class="navbar navbar-expand-lg bg-header fixed-top">
                 <div class="container-fluid">
                     <img src="../multimedia/sakura_logo.png" class="img-fluid logo" alt="Karate Do Miyazato">
                     <a class="navbar-brand" href="../index.html">Karate Do Miyazato</a>
@@ -70,10 +70,10 @@
         </header>
 
         <!-- Contenido -->
-        <main  class="mainNosotros">
-            <article class="articulo1">
-                <div class="articulo1__titulo_texto">
-                    <h2>Nosotros</h2>
+        <main class="container-fluid section-margin">
+            <article class="row parallaxNosotros1 justify-content-center align-items-center">
+                <div class="col-md-6 bg-nosotros">
+                    <h2 class="text-center">Nosotros</h2>
                     <p>
                         En la actualidad, como hace ya muchas décadas, los cambios en las organizaciones son una constante.
                         Aquellas organizaciones que no pueden adaptarse a los mismos, los padecen, afectando esto en su normal
@@ -84,16 +84,20 @@
                         Masatoshi Miyazato a transitar este camino de constantes cambios, haciendo a la institución más reactiva
                         frente a los mismos.
                     </p>
+                    
+                    
+                    
                 </div>
-
-                <div class="articulo1__img">
-                    <img src="../multimedia/karatedomiyazatohombu-removebg-preview.png" alt="Karate-Do-Miyazato">
+                <div class="col-md-6 bg-nosotros">
+                    <a href="../multimedia/ORGANIGRAMA_EMKD_2020.pdf" target="_blank">
+                        <img src="../multimedia/KarateDoMiyazato.png" class="img-fluid" alt="Karate-Do-Miyazato">
+                    </a>
                 </div>
             </article>
 
-            <article class="articulo2">
-                <div class="articulo2__titulo_texto">
-                    <h2>GRI</h2>
+            <article class="row parallaxNosotros2 justify-content-center align-items-center">
+                <div class="col-md-6 bg-nosotros">
+                    <h2 class="text-center">GRI</h2>
                     <P>
                         Desde los primeros pasos de Sensei Shoei Miyazato junto a la Escuela Miyazato, siempre fue su objetivo
                         principal el fomentar valores escenciales para entregar a la sociedad ciudadamos ejemplares. Este
@@ -106,15 +110,19 @@
                         primera
                         institución de su tipo en el mundo en obtener dicha distinción.
                     </P>
+                    
                 </div>
-                <div class="articulo2__img">
-                    <img src="../multimedia/gri-removebg-preview.png" alt="Global Reporting Initiative">
+
+                <div class="col-md-6 bg-nosotros">
+                    <a href="../multimedia/EscuelaMiyazato-GRI-2.pdf" target="_blank">
+                        <img src="../multimedia/gri-removebg-preview.png" class="img-fluid" alt="Karate-Do-Miyazato">
+                    </a>
                 </div>
             </article>
         </main>
 
         <!--  Pie de pagina -->
-        <footer class="container-fluid footer">
+        <footer class="container-fluid footer mt-auto">
             <div class="text-center">
                     <div class="redes col-md-12">
                         <p class="h5">Seguinos</p>

@@ -80,9 +80,9 @@ body{
 }
 
 
-.parallax1{
+.parallaxIndex{
     background-image: url("../multimedia/parallax.jpg");
-    height: 600px;
+    height: 700px;
 
     background-attachment: fixed;
     background-position: center;
@@ -92,11 +92,8 @@ body{
 
 .mainIndex{
     font-family: Anton, sans-serif;
-    background-color: #c0150fb7;
+    background-color: #1c1c1c85;
     color: #F5F5F5;
-
-    text-align: center;
-
 }
 
 .footer {
@@ -116,13 +113,27 @@ body{
     align-items: center;
 }
 
-.mainNosotros{
-    grid-area: main;
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    background-color: #c0150fb7;
+.bg-nosotros{
+    background-color: #1c1c1c40;
+    /* color: #C0150F; */
+}
+.parallaxNosotros1{
+    background-image: url("../multimedia/fondoNosotros1.jpg");
+    height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxNosotros2{
+    background-image: url("../multimedia/fondoNosotros2.jpg");
+    height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .articulo1{
@@ -182,7 +193,7 @@ body{
 }
 
 .mainContacto{
-    background-color: #c0150fb7;
+    background-color: #1c1c1c;
 }
 
 .btn-primary {
