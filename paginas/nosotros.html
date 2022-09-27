@@ -1,39 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200&family=Nunito&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="../css/styleNew.css">
     
     <title>Nosotros</title>
 </head>
-<body>
-    <div class="container">
+<body class="d-flex flex-column min-vh-100">
+    <!-- <div class="container"> -->
         <!-- Encabezado -->
-        <header class="header">
-            <div class="logoTitulo">
-                <a href="index.html"><img src="../multimedia/sakura_logo.png" alt="KarateDoMiyazato"></a>
-                <h1>KARATE DO MIYAZATO</h1>
-            </div>
-            
-            <nav class="menuPrincipal">
-                <ul>
-                    <li class="animate"><a href="../index.html">Inicio</a></li>
-                    <li class="animate"><a href="../paginas/nosotros.html">Nosotros</a></li>
-                    <li class="animate"><a href="../paginas/beneficios.html">Beneficios</a></li>
-                    <li class="animate"><a href="../paginas/dojos.html">Dojos</a></li>
-                    <li class="animate"><a href="../paginas/contacto.html">Contacto</a></li>
-                </ul>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-header fixed-top">
+                <div class="container-fluid">
+                    <img src="../multimedia/sakura_logo.png" class="img-fluid logo" alt="Karate Do Miyazato">
+                    <a class="navbar-brand" href="../index.html">Karate Do Miyazato</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav text-end">
+                            <li class="nav-item animate">
+                                <a class="nav-link" aria-current="page" href="../index.html">Incio</a>
+                            </li>
+                            <li class="nav-item animate">
+                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item animate">
+                                <a class="nav-link" href="./beneficios.html">Beneficios</a>
+                            </li>
+                            <li class="nav-item animate">
+                                <a class="nav-link" href="./dojos.html">Dojos</a>
+                            </li>
+                            <li class="nav-item animate">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Idioma
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Español</a></li>
+                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                    <li><a class="dropdown-item" href="#">日本語</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
         <!-- Contenido -->
-        <main  class="mainNosotros">
-            <article class="articulo1">
-                <div class="articulo1__titulo_texto">
-                    <h2>Nosotros</h2>
+        <main class="container-fluid section-margin">
+            <article class="row parallaxNosotros1 justify-content-center align-items-center">
+                <div class="col-md-6 bg-nosotros">
+                    <h2 class="text-center">Nosotros</h2>
                     <p>
                         En la actualidad, como hace ya muchas décadas, los cambios en las organizaciones son una constante.
                         Aquellas organizaciones que no pueden adaptarse a los mismos, los padecen, afectando esto en su normal
@@ -44,16 +84,20 @@
                         Masatoshi Miyazato a transitar este camino de constantes cambios, haciendo a la institución más reactiva
                         frente a los mismos.
                     </p>
+                    
+                    
+                    
                 </div>
-
-                <div class="articulo1__img">
-                    <img src="../multimedia/karatedomiyazatohombu-removebg-preview.png" alt="Karate-Do-Miyazato">
+                <div class="col-md-6 bg-nosotros">
+                    <a href="../multimedia/ORGANIGRAMA_EMKD_2020.pdf" target="_blank">
+                        <img src="../multimedia/KarateDoMiyazato.png" class="img-fluid" alt="Karate-Do-Miyazato">
+                    </a>
                 </div>
             </article>
 
-            <article class="articulo2">
-                <div class="articulo2__titulo_texto">
-                    <h2>GRI</h2>
+            <article class="row parallaxNosotros2 justify-content-center align-items-center">
+                <div class="col-md-6 bg-nosotros">
+                    <h2 class="text-center">GRI</h2>
                     <P>
                         Desde los primeros pasos de Sensei Shoei Miyazato junto a la Escuela Miyazato, siempre fue su objetivo
                         principal el fomentar valores escenciales para entregar a la sociedad ciudadamos ejemplares. Este
@@ -66,27 +110,39 @@
                         primera
                         institución de su tipo en el mundo en obtener dicha distinción.
                     </P>
+                    
                 </div>
-                <div class="articulo2__img">
-                    <img src="../multimedia/gri-removebg-preview.png" alt="Global Reporting Initiative">
+
+                <div class="col-md-6 bg-nosotros">
+                    <a href="../multimedia/EscuelaMiyazato-GRI-2.pdf" target="_blank">
+                        <img src="../multimedia/gri-removebg-preview.png" class="img-fluid" alt="Karate-Do-Miyazato">
+                    </a>
                 </div>
             </article>
         </main>
 
         <!--  Pie de pagina -->
-        <footer class="footer">
-            <h4>Seguinos en nuestras redes</h4>
-            <div class="redes">
-                <a href="https://www.instagram.com/karatedomiyazato/" target="_blank"><img class="footer__img" src="../multimedia/instagramBlack.png" alt="instagram">
-                </a>
-                <a href="https://www.facebook.com/KarateDoMiyazato" target="_blank"><img class="footer__img" src="../multimedia/facebookBlack.png" alt="facebook">
-                </a>
-                <a href="https://www.youtube.com/c/KarateDoMiyazatoOficial" target="_blank"><img class="footer__img" src="../multimedia/youtubeBlack.png" alt="youtube">
-                </a>
+        <footer class="container-fluid footer mt-auto">
+            <div class="text-center">
+                    <div class="redes col-md-12">
+                        <p class="h5">Seguinos</p>
+                        <a href="https://www.instagram.com/karatedomiyazato/" target="_blank"><i class="bi bi-instagram fs-2 m-2"></i></a>
+                        <a href="https://www.youtube.com/c/KarateDoMiyazatoOficial" target="_blank"><i class="bi bi-youtube fs-2 m-2"></i></a>
+                        <a href="https://www.facebook.com/KarateDoMiyazato" target="_blank"><i class="bi bi-facebook fs-2 m-2"></i></a>
+                        
+                    </div>
+                    <h5 class="h6">&copy; 2022 Miyazato Dojo. Todos los derechos reservados.</h5>
             </div>
+                
             
-            <h5 class="footer__text">&copy; 2022 Miyazato Dojo. Todos los derechos reservados.</h5>
         </footer>
-    </div>
+    
+    
+    
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+    <!-- </div> -->
 </body>
 </html>
