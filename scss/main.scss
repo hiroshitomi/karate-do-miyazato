@@ -1,0 +1,78 @@
+@import "index";
+
+
+/* Variables */
+$font-principal: Roboto, sans-serif;
+$color-principal: #C0150F;
+$color-body: #BFBFBF;
+$color-font: #F5F5F5;
+
+/* scss */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $color-body;
+    font-family: $font-principal;
+    color: $color-font;
+    min-height: 100vh;
+}
+
+.navbar{
+    --bs-navbar-hover-color: #F5F5F5;
+}
+
+.navbar-brand{
+        --bs-navbar-brand-hover-color: #F5F5F5;
+        color: $color-font;
+        font-family: Anton, sans-serif;
+        font-size: 30px;
+    }
+    
+.nav-link {
+    color: $color-font;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.section-margin{
+    margin-top: 4.5rem;
+}
+
+.bg-header{
+    background-color: $color-principal;
+}
+
+.dropdown-menu {
+    --bs-dropdown-color: $color-font;
+    --bs-dropdown-bg: $color-principal;
+    --bs-dropdown-link-color: $color-font;
+}
+
+.animate {
+    transition: all 0.2 ease-in-out;
+    &:hover {
+        transform: scale(0.8);
+    }
+}
+
+.footer {
+    background-color: $color-principal;
+    color: $color-font;
+    a {
+        text-decoration: none;
+        color: $color-font;
+    }
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}

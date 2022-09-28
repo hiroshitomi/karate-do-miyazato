@@ -1,0 +1,69 @@
+.parallaxIndex {
+  background-image: url("../multimedia/parallax.jpg");
+  height: 932px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.mainIndex {
+  font-family: Anton, sans-serif;
+  background-color: #1c1c1c85;
+  color: #F5F5F5; }
+
+/* Variables */
+/* scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #BFBFBF;
+  font-family: Roboto, sans-serif;
+  color: #F5F5F5;
+  min-height: 100vh; }
+
+.navbar {
+  --bs-navbar-hover-color: #F5F5F5; }
+
+.navbar-brand {
+  --bs-navbar-brand-hover-color: #F5F5F5;
+  color: #F5F5F5;
+  font-family: Anton, sans-serif;
+  font-size: 30px; }
+
+.nav-link {
+  color: #F5F5F5; }
+
+.logo {
+  width: 50px;
+  height: 50px; }
+
+.section-margin {
+  margin-top: 4.5rem; }
+
+.bg-header {
+  background-color: #C0150F; }
+
+.dropdown-menu {
+  --bs-dropdown-color: $color-font;
+  --bs-dropdown-bg: $color-principal;
+  --bs-dropdown-link-color: $color-font; }
+
+.animate {
+  transition: all 0.2 ease-in-out; }
+  .animate:hover {
+    transform: scale(0.8); }
+
+.footer {
+  background-color: #C0150F;
+  color: #F5F5F5; }
+  .footer a {
+    text-decoration: none;
+    color: #F5F5F5; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center; }

@@ -1,15 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
+
+/* body{
     background-color: #BFBFBF;
     font-family: Roboto, sans-serif;
     color: white;
     min-height: 100vh;
-}
+} */
 
-.navbar-brand{
+/* .navbar-brand{
     --bs-navbar-brand-hover-color: #F5F5F5;
     color: #F5F5F5;
     font-family: Anton, sans-serif;
@@ -22,13 +19,13 @@ body{
 
 .navbar{
     --bs-navbar-hover-color: #F5F5F5;
-}
+} */
 
-.nav-link {
+/* .nav-link {
     color: #F5F5F5;
-}
+} */
 
-.dropdown-menu {
+/* .dropdown-menu {
     --bs-dropdown-color: #F5F5F5;
     --bs-dropdown-bg: #C0150F;
     --bs-dropdown-link-color: #F5F5F5;
@@ -43,34 +40,6 @@ body{
     background-color: #C0150F;
 }
 
-.container1{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 5fr 0.2fr;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-    align-items: center;
-    justify-items: center;
-    align-content: space-around;
-}
-
-/* .header{
-    grid-area: header;
-    display: flex;
-    height: 80px;
-    width: 100%;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-    justify-items: center;  
-    background-color: rgb(148, 30, 30);
-    position: sticky;
-    top: 0;
-} */
-
 .animate {
     transition: all 0.2 ease-in-out;
 }
@@ -82,7 +51,7 @@ body{
 
 .parallaxIndex{
     background-image: url("../multimedia/parallax.jpg");
-    height: 700px;
+    height: 932px;
 
     background-attachment: fixed;
     background-position: center;
@@ -94,9 +63,9 @@ body{
     font-family: Anton, sans-serif;
     background-color: #1c1c1c85;
     color: #F5F5F5;
-}
+} */
 
-.footer {
+/* .footer {
     background-color: #C0150F;
     color: #F5F5F5;
 }
@@ -111,7 +80,7 @@ body{
     flex-direction: row;
     justify-content: end;
     align-items: center;
-}
+} */
 
 .bg-nosotros{
     background-color: #1c1c1c40;
@@ -119,7 +88,7 @@ body{
 }
 .parallaxNosotros1{
     background-image: url("../multimedia/fondoNosotros1.jpg");
-    height: 600px;
+    height: 866px;
 
     background-attachment: fixed;
     background-position: center;
@@ -128,7 +97,7 @@ body{
 }
 .parallaxNosotros2{
     background-image: url("../multimedia/fondoNosotros2.jpg");
-    height: 600px;
+    height: 792px;
 
     background-attachment: fixed;
     background-position: center;
@@ -194,6 +163,7 @@ body{
 
 .mainContacto{
     background-color: #1c1c1c;
+    height: 933px;
 }
 
 .btn-primary {
