@@ -27,10 +27,10 @@
     <title>Beneficios</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- Encabezado -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-header">
+        <nav class="navbar navbar-expand-lg bg-header fixed-top">
             <div class="container-fluid">
                 <img src="../multimedia/sakura_logo.png" class="img-fluid logo" alt="Karate Do Miyazato">
                 <a class="navbar-brand" href="../index.html">Karate Do Miyazato</a>
@@ -74,52 +74,65 @@
     </header>
 
     <!-- Bloque principal -->
-    <main class="main">
-        <div class="beneficios_div">
-            <h2>SIN LÍMITES DE EDAD</h2>
-            
-            <p class="beneficios__p">
-                LA PRÁCTICA DEL KARATE DO BRINDA, TANTO A JÓVENES COMO PERSONAS MAYORES, SEGURIDAD, CONFIANZA Y AUTOCONTROL, AL
-                TIEMPO QUE AYUDA A MEJORAR SU CALIDAD DE VIDA
-            </p>
-            <img class="beneficios__imagen" src="../multimedia/mayores.jpg" alt="Miyazato para mayores">
-        </div>
-        
-        <div class="beneficios_div">
-            <h2>SIN DIFERENCIAS DE GÉNERO</h2>
-            
-            <p class="beneficios__p">
-                SIN RESTRICCIONES A LA HORA DE LA PRÁCTICA, HOMBRES Y MUJERES PUEDEN APRENDER ESTE ARTE MARCIAL POR IGUAL
-            </p>
-            <img class="beneficios__imagen" src="../multimedia/generos.jpg" alt="Miyazato para todos">
-        </div>
+    <main class="container-fluid mainBeneficios section-margin">
+        <article class="row justify-content-center align-items-center mt-3 mb-3">
+            <div class="col-md-4">
+                <h2>SIN LÍMITES DE EDAD</h2>
+                <p>
+                    LA PRÁCTICA DEL KARATE DO BRINDA, TANTO A JÓVENES COMO PERSONAS MAYORES, SEGURIDAD, CONFIANZA Y AUTOCONTROL, AL
+                    TIEMPO QUE AYUDA A MEJORAR SU CALIDAD DE VIDA
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="../multimedia/mayores.jpg" class="img-fluid rounded" alt="Miyazato para mayores">
+            </div>
+        </article>
 
-        <div class="beneficios_div">
-            <h2>CLASES PARA NIÑOS</h2>
-            
-            <p class="beneficios__p">
-                AYUDA A LOS NIÑOS A DESARROLLAR DESTREZAS, REFLEJOS Y REACCIONES, DESCARGANDO ENERGÍAS, ENSEÑÁNDOLES AL MISMO
-                TIEMPO DISCIPLINA, EDUCACIÓN Y RESPETO
-            </p>
-            <img class="beneficios__imagen" src="../multimedia/ninos.jpg" alt="Miyazato niños">
-        </div>
+        <article class="row align-items-center justify-content-center mb-3">
+            <div class="col-md-4">
+                <img src="../multimedia/generos.jpg" class="img-fluid rounded" alt="Miyazato para todos">
+            </div>
 
-        <div class="beneficios_div">
-            <h2>KARATE DO SIN FRONTERAS</h2>
-            
-            <p class="beneficios__p">
-                LA ESCUELA MIYAZATO SIGUE EL OBJETIVO DE SENSEI SHOEI MIYAZATO DE DIFUNDIR LA ENSEÑANZA DEL KARATE DO EN TODO EL
-                MUNDO
-            </p>
-            <img class="beneficios__imagen" src="../multimedia/totem.jpg" alt="Escuela Miyazato mundial">
-        </div>
-        
+            <div class="col-md-4">
+                <h2>SIN DIFERENCIAS DE GÉNERO</h2>
+                <p>
+                    SIN RESTRICCIONES A LA HORA DE LA PRÁCTICA, HOMBRES Y MUJERES PUEDEN APRENDER ESTE ARTE MARCIAL POR IGUAL
+                </p>
+            </div>
+        </article>
+
+        <article class="row align-items-center justify-content-center mb-3">
+            <div class="col-md-4">
+                <h2>CLASES PARA NIÑOS</h2>
+                <p>
+                    AYUDA A LOS NIÑOS A DESARROLLAR DESTREZAS, REFLEJOS Y REACCIONES, DESCARGANDO ENERGÍAS, ENSEÑÁNDOLES AL MISMO
+                    TIEMPO DISCIPLINA, EDUCACIÓN Y RESPETO
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="../multimedia/ninos.jpg" class="img-fluid rounded" alt="Miyazato niños">
+            </div>
+        </article>
+
+        <article class="row  align-items-center justify-content-center mb-3">
+            <div class="col-md-4">
+                <img src="../multimedia/totem.jpg" class="img-fluid rounded" alt="Escuela Miyazato mundial">
+            </div>
+            <div class="col-md-4 align-items-center">
+                <h2>KARATE DO SIN FRONTERAS</h2>
+                <p>
+                    LA ESCUELA MIYAZATO SIGUE EL OBJETIVO DE SENSEI SHOEI MIYAZATO DE DIFUNDIR LA ENSEÑANZA DEL KARATE DO EN TODO EL
+                    MUNDO
+                </p>
+            </div>
+        </article>      
     </main>
     
 
     
     <!--  Pie de pagina -->
-    <footer class="container-fluid footer">
+    <footer class="container-fluid footer mt-auto">
         <div class="text-center">
                 <div class="redes col-md-12">
                     <p class="h5">Seguinos</p>

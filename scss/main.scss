@@ -1,10 +1,14 @@
 @import "index";
+@import "beneficios";
+@import "nosotros";
+@import "dojos";
+@import "contacto";
 
 
 /* Variables */
 $font-principal: Roboto, sans-serif;
 $color-principal: #C0150F;
-$color-body: #BFBFBF;
+$color-body: #1c1c1c;
 $color-font: #F5F5F5;
 
 /* scss */
@@ -49,9 +53,9 @@ body{
 }
 
 .dropdown-menu {
-    --bs-dropdown-color: $color-font;
-    --bs-dropdown-bg: $color-principal;
-    --bs-dropdown-link-color: $color-font;
+    --bs-dropdown-color: #F5F5F5;
+    --bs-dropdown-bg: #C0150F;
+    --bs-dropdown-link-color: #F5F5F5;
 }
 
 .animate {
@@ -75,4 +79,19 @@ body{
     flex-direction: row;
     justify-content: end;
     align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .section-margin{
+        margin-top: 7rem;
+    }
 }
