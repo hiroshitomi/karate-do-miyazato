@@ -1,0 +1,21 @@
+/* EXTEND */
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxNosotros1{
+    @extend .parallax;
+
+    background-image: url("../multimedia/fondoNosotros1.jpg");
+    height: 866px;
+}
+
+.parallaxNosotros2{
+    @extend .parallax;
+
+    background-image: url("../multimedia/fondoNosotros2.jpg");
+    height: 792px;
+}

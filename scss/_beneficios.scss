@@ -1,5 +1,22 @@
-.mainBeneficios{
-    font-family: Anton, sans-serif;
-    background-color: #1c1c1c;
-    color: #F5F5F5;
+/* MAP-GET */
+$estilos: (
+    colorFuente: #f5f5f5,
+    colorFondo: #1c1c1c,
+    tipoFuente: Anton,
+);
+
+.mainBeneficios {
+    background-color: map-get($estilos, colorFondo);
+    font-family: map-get($estilos, tipoFuente);
+    color: map-get($estilos, colorFuente);
+}
+
+/* MIXIN */
+@mixin imgSize($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.tamanioImg {
+    @include imgSize(80%, 100%);
 }
