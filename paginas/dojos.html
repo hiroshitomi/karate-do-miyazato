@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,14 +28,16 @@
     Heredera de siglos de evolución en el arte del Karate-Do ofrece,
     desde hace cincuenta y cinco años en Argentina,
     un método seguro y eficaz para iniciarse y avanzar en el estudio y práctica de este arte marcial.">
-    <meta name="keywords" content="karatedomiyazato, Karate, Karate-Do, Shorin Ryu, Shidokan, Escuela Miyazato, Miyazato Dojo, karate okinawa">
-    
+    <meta name="keywords"
+        content="karatedomiyazato, Karate, Karate-Do, Shorin Ryu, Shidokan, Escuela Miyazato, Miyazato Dojo, karate okinawa">
+
     <title>Dojos - Miyazato Dojo</title>
 </head>
-<body>
+
+<body class="d-flex flex-column min-vh-100">
     <!-- Encabezado -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-header">
+        <nav class="navbar navbar-expand-lg bg-header fixed-top">
             <div class="container-fluid">
                 <img src="../multimedia/sakura_logo.png" class="img-fluid logo" alt="Karate Do Miyazato">
                 <a class="navbar-brand" href="../index.html">Karate Do Miyazato</a>
@@ -78,38 +81,57 @@
     </header>
 
     <!-- Bloque principal -->
-    <main class="main">
-        <h1>Nuestros Dojos</h1>
-        <label for="pais">En Argentina:</label>
-        <br>
-        <select name="pais">
-            <option>Seleccione..</option>
-            <option>Cordoba</option>
-            <option>Buenos Aires</option>
-            <option>Santa Fe</option>
-            <option>Entre Rios</option>
-            <option>Santa Cruz</option>
-            <option>Rio Negro</option>
-            <option>Mendoza</option>
-        </select>
-        <br>
-        <img class="dojos__img" src="../multimedia/miyazato_argentina.png" alt="escuelas miyazato en argentina">
+    <main class="container-fluid section-margin">
+        <article class="row justify-content-center align-items-center">
+            <h1 class="text-center mb-4">Nuestros Dojos</h1>
+
+            <div class="btn-group col-md-4 mb-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    data-bs-auto-close="true" aria-expanded="false">
+                    Seleccione...
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Cordoba</a></li>
+                    <li><a class="dropdown-item" href="#">Buenos Aires</a></li>
+                    <li><a class="dropdown-item" href="#">Santa Fe</a></li>
+                </ul>
+            </div>
+
+            <!-- <select  name="pais">
+                <option>Seleccione..</option>
+                <option>Cordoba</option>
+                <option>Buenos Aires</option>
+                <option>Santa Fe</option>
+                <option>Entre Rios</option>
+                <option>Santa Cruz</option>
+                <option>Rio Negro</option>
+                <option>Mendoza</option>
+            </select> -->
+
+            <div class="col-md-9 mb-5">
+                <img class="img-fluid rounded tamanioImg" src="../multimedia/miyazatoMundial.png"
+                    alt="escuelas miyazato en argentina">
+            </div>
+        </article>
     </main>
 
     <!--  Pie de pagina -->
-    <footer class="container-fluid footer">
+    <footer class="container-fluid footer mt-auto">
         <div class="text-center">
-                <div class="redes col-md-12">
-                    <p class="h5">Seguinos</p>
-                    <a href="https://www.instagram.com/karatedomiyazato/" target="_blank"><i class="bi bi-instagram fs-2 m-2"></i></a>
-                    <a href="https://www.youtube.com/c/KarateDoMiyazatoOficial" target="_blank"><i class="bi bi-youtube fs-2 m-2"></i></a>
-                    <a href="https://www.facebook.com/KarateDoMiyazato" target="_blank"><i class="bi bi-facebook fs-2 m-2"></i></a>
-                    
-                </div>
-                <h5 class="h6">&copy; 2022 Miyazato Dojo. Todos los derechos reservados.</h5>
+            <div class="redes col-md-12">
+                <p class="h5">Seguinos</p>
+                <a href="https://www.instagram.com/karatedomiyazato/" target="_blank"><i
+                        class="bi bi-instagram fs-2 m-2"></i></a>
+                <a href="https://www.youtube.com/c/KarateDoMiyazatoOficial" target="_blank"><i
+                        class="bi bi-youtube fs-2 m-2"></i></a>
+                <a href="https://www.facebook.com/KarateDoMiyazato" target="_blank"><i
+                        class="bi bi-facebook fs-2 m-2"></i></a>
+
+            </div>
+            <h5 class="h6">&copy; 2022 Miyazato Dojo. Todos los derechos reservados.</h5>
         </div>
-            
-        
+
+
     </footer>
 
 
@@ -119,4 +141,5 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

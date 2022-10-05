@@ -1,0 +1,9 @@
+/* MIXIN */
+@mixin imgSize($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.tamanioImg {
+    @include imgSize(100%, 100%);
+}

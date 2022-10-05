@@ -28,6 +28,23 @@
   background-image: url("../multimedia/fondoNosotros2.jpg");
   height: 792px; }
 
+/* MIXIN */
+.tamanioImg {
+  height: 100%;
+  width: 100%; }
+
+label {
+  display: inline-block;
+  color: #1c1c1c;
+  font-family: Roboto, sans-serif; }
+
+.form-control:focus {
+  color: #1c1c1c;
+  background-color: #F5F5F5;
+  border-color: #c0150f;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(192, 21, 15, 0.559); }
+
 /* Variables */
 /* scss */
 * {

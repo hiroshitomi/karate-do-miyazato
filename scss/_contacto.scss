@@ -1,0 +1,13 @@
+label {
+    display: inline-block;
+    color: #1c1c1c;
+    font-family: Roboto, sans-serif;
+}
+
+.form-control:focus {
+    color: #1c1c1c;
+    background-color: #F5F5F5;
+    border-color: rgb(192, 21, 15);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(192, 21, 15, 0.559);
+}
