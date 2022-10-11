@@ -1,3 +1,7 @@
+.bg-nosotros{
+    background-color: #1c1c1c5c;
+}
+
 /* EXTEND */
 .parallax{
     background-attachment: fixed;
@@ -18,4 +22,29 @@
 
     background-image: url("../multimedia/fondoNosotros2.jpg");
     height: 792px;
+}
+
+.imagen-kdm{
+    height: 200px;
+}
+
+.fancy-undeline {
+    background-image: linear-gradient(120deg, #D31027,#EA384D 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 80%;
+    transition: background-size 0.25s ease-in;
+}
+
+.fancy-undeline:hover {
+    background-size: 100% 88% !important;
+}
+
+h2{
+    font-family: Anton, sans-serif;
+}
+p{  
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    
 }

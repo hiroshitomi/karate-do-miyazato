@@ -1,4 +1,25 @@
 .mainIndex{
-    font-family: Anton, sans-serif;
+    
     color: #F5F5F5;
+    h1{
+        font-family: Anton, sans-serif;
+    }
+    p{  
+        font-family: Roboto, sans-serif;
+        font-style: italic;
+        
+    }
+}
+
+
+.fancy-undeline {
+    background-image: linear-gradient(120deg, #D31027,#EA384D 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 80%;
+    transition: background-size 0.25s ease-in;
+}
+
+.fancy-undeline:hover {
+    background-size: 100% 88% !important;
 }
