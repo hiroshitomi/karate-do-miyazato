@@ -4,6 +4,10 @@
     width: $width;
 }
 
+.section-margin-dojo{
+    margin-top: 6rem;
+}
+
 .tamanioImg {
     @include imgSize(100%, 100%);
 }
@@ -32,5 +36,11 @@
         border-color: rgba(192, 21, 15, 0.718);
         outline: 0;
         box-shadow: 0 0 0 0.25rem rgba(192, 21, 15, 0.718);
+    }
+}
+
+@media screen and (max-width: 376px){
+    .section-margin-dojo{
+        margin-top: 8rem;
     }
 }
