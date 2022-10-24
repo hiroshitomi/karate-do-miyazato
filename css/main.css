@@ -184,6 +184,9 @@ body {
 .bg-header {
   background-color: #C0150F; }
 
+.text-mobile-desktop {
+  text-align: start; }
+
 .dropdown-menu {
   --bs-dropdown-color: #F5F5F5;
   --bs-dropdown-bg: #C0150F;
@@ -229,7 +232,9 @@ body {
   .animate {
     transition: none; }
     .animate:hover {
-      transform: none; } }
+      transform: none; }
+  .text-mobile-desktop {
+    text-align: end; } }
 
 @media screen and (max-width: 376px) {
   .section-margin {
